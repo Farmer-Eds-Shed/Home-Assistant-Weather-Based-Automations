@@ -1,0 +1,17 @@
+
+#Frost Warning
+- id: 'farm notifications 3'
+  alias: Frost Warning
+  description: ''
+  trigger:
+  - platform: numeric_state
+    entity_id: !secret eds_phone
+    below: '0'
+  condition: []
+  action:
+  - device_id: !secret eds_phone
+    domain: mobile_app
+    type: notify
+    title: ''
+    message: Warning! Frost Tonight
+  mode: single
