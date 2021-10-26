@@ -6,3 +6,6 @@ An API is available, it requires a subscription but it is free. https://openweat
 It uses a Json format which can be read by Home Assistant's Rest https://www.home-assistant.io/integrations/rest <br />
 
 A useful tool for finding json paths is https://jsonpathfinder.com/ <br />
+
+Radar Maps from https://en.sat24.com/en/freeimages<br />
+![alt text](https://live.staticflickr.com/65535/51629349087_5e728fc3c9_c.jpg)
