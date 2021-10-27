@@ -5,7 +5,7 @@
   description: ''
   trigger:
   - platform: numeric_state
-    entity_id: !secret eds_phone
+    entity_id: sensor.openweather_temp_night_today
     below: '0'
   condition: []
   action:
